@@ -116,7 +116,7 @@ INSERT INTO `leave_type` (`id`, `name`) VALUES
 -- Table structure for table `tblleaves`
 --
 
-CREATE TABLE `tblleaves` (
+CREATE TABLE `leaves` (
   `id` int(11) NOT NULL,
   `LeaveTypeId` tinyint(4) NOT NULL,
   `ToDate` varchar(120) NOT NULL,
@@ -181,7 +181,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `employee_id`, `user_type`, `username`, `password`) VALUES
 (1, NULL, 'SUPER ADMIN', 'admin', 'admin'),
-(2, 1, 'NORMAL', 'robin', 'robin'),
+(2, 1, 'NORMAL', 'hari', 'hari'),
 (3, 2, 'ADMIN', 'taylor', 'taylor'),
 (4, 3, 'ADMIN', 'vivian', 'vivian'),
 (5, 4, 'NORMAL', 'harry', 'harry'),
